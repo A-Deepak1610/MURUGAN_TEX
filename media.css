@@ -7,12 +7,12 @@
         justify-content: center;
         align-items: center;
     }
-    .billaddress{
+    /* .billaddress{
         border: none;
     }
     .billgstn,.billstate,.addressbill{
         border: none;
-    }
+    } */
     .addressbill{
         resize: none;
     }
