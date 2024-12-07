@@ -454,3 +454,18 @@ li{
     width:3ch;
     font-size: 18px;
 }
+.calc{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: blue;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    visibility: hidden;
+}
+@media screen and (max-width:500px) {
+    .clac{
+        visibility: inherit;
+    }
+}
