@@ -157,5 +157,66 @@ function numberToWordsIndian(num) {
     window.print()
   }
 
+// function saveData() {
+//   const fields = [
+//     "billaddress",
+//     "addressbill",
+//     "billgstn",
+//     "billstate",
+//     "sbilladdress",
+//     "saddressbill",
+//     "sbillgstn",
+//     "sbillstate",
+//     "baleno1",
+//     "baleno2",
+//     "inputmeters",
+//     "inputrate",
+//   ];
+
+//   fields.forEach((field) => {
+//     const element = document.getElementById(field);
+//     if (element) {
+//       localStorage.setItem(field, element.value);
+//     }
+//   });
+// }
+// function loadData() {
+//   const fields = [
+//     "billaddress",
+//     "addressbill",
+//     "billgstn",
+//     "billstate",
+//     "sbilladdress",
+//     "saddressbill",
+//     "sbillgstn",
+//     "sbillstate",
+//     "baleno1",
+//     "baleno2",
+//     "inputmeters",
+//     "inputrate",
+//   ];
+
+//   fields.forEach((field) => {
+//     const element = document.getElementById(field);
+//     if (element) {
+//       const storedValue = localStorage.getItem(field);
+//       if (storedValue) {
+//         element.value = storedValue;
+//       }
+//     }
+//   });
+// }
+// function clearData() {
+//   localStorage.clear();
+//   location.reload();
+// }
+// window.addEventListener("DOMContentLoaded", () => {
+//   loadData();
+//   const fields = document.querySelectorAll("input, textarea");
+//   fields.forEach((field) => {
+//     field.addEventListener("input", saveData);
+//   });
+// });
+
   
   

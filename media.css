@@ -25,4 +25,7 @@
     .print{
         visibility: hidden;
     }
+    .clear{
+        visibility: hidden;
+    }
 }
