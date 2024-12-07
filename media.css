@@ -16,5 +16,13 @@
     .addressbill{
         resize: none;
     }
-    
+    .checkbox{
+        visibility: hidden;
+    }
+    .calc{
+        visibility: hidden;
+    }
+    .print{
+        visibility: hidden;
+    }
 }

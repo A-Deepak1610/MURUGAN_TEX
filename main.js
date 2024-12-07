@@ -130,6 +130,32 @@ function numberToWordsIndian(num) {
         baleno2.style.width="2ch"
     }
   }
+  function sameshipaddress(){
+    var checkbox=document.getElementById("checkbox")
+    var billaddress=document.getElementById("billaddress").value
+    var addressbill=document.getElementById("addressbill").value
+    var billgstn=document.getElementById("billgstn").value
+    var billstate=document.getElementById("billstate").value
+    var sbilladdress=document.getElementById("sbilladdress")
+    var saddressbill=document.getElementById("saddressbill")
+    var sbillgstn=document.getElementById("sbillgstn")
+    var sbillstate=document.getElementById("sbillstate")
+    if(checkbox.checked==true){
+      sbilladdress.value=billaddress
+      saddressbill.value=addressbill
+      sbillgstn.value=billgstn
+      sbillstate.value=billstate
+    }
+    else{
+      sbilladdress.value=''
+      saddressbill.value=''
+      sbillgstn.value=''
+      sbillstate.value=''
+    }
+  }
+  function printpage(){
+    window.print()
+  }
 
   
   
