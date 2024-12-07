@@ -129,6 +129,10 @@ function numberToWordsIndian(num) {
         baleno1.style.width="2ch"
         baleno2.style.width="2ch"
     }
+    else if(baleno1.value.length==4){
+      baleno1.style.width="4ch"
+        baleno2.style.width="4ch"
+    }
   }
   function sameshipaddress(){
     var checkbox=document.getElementById("checkbox")
