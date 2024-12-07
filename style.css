@@ -218,17 +218,7 @@
     font-size: 15px;
     margin-left: 5px;
 }
-.bale{
-    width: 100%;
-    height: 100px;
-    border: 1px solid black;
-    margin-top:94px;
-}
-.baleno{
-    margin-top: 20px;
-    font-size: 18px;
-    border: none;
-}
+
 .totalbale{
     margin-top: 10px;
     font-size: 18px;
@@ -297,4 +287,170 @@
     border: none;
     font-weight: 450;
     text-align: center;
+}
+.taxdetails{
+    display: flex;
+    width: 100%;
+    border: 1px solid black;
+    height: 210px;
+}
+.bankdetails{
+    width: 58%;
+    border: 1px solid black;
+}
+.bankdetail{
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.taxes{
+    width: 42%;
+    border: 1px solid black;
+    display: flex;
+}
+.name,.acno,.bankname,.ifsc,.branch{
+    width: 105px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.bbranch,.bifsc,.bbankname,.bacno,.bacno,.bname{
+    display: flex;
+    margin-top: 2px;
+}
+.aa{
+    font-size: 16px;
+    font-weight: 550;
+}
+.bname{
+    margin-top: 10px;
+}
+.taxname{
+    width: 53%;
+    border: 1px solid black;
+}
+.taxamt{
+    width: 48%;
+    border: 1px solid black;
+}
+.taxableamt,.igst,.cgst,.sgst{
+    width: 100%;
+    border: 1px solid black;
+    height: 30px;
+    max-width: 98%;
+    display: flex;
+    align-items: center;
+    padding-left: 3px;
+    font-weight: 600;
+}
+.totamt{
+    margin-top:50px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    padding-left: 3px;
+    max-width: 98%;
+    height: 30px;
+    font-weight: 700;
+}
+.taxableamtno,.igstno,.cgstno,.sgstno{
+    width: 100%;
+    border: 1px solid black;
+    height: 30px;
+    max-width: 98%;
+    display: flex;
+    align-items: center;
+    padding-left: 3px;
+}
+.amtinwordrs{
+    text-transform: capitalize;
+}
+.totalamt{
+    margin-top:50px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    padding-left: 3px;
+    max-width: 98%;
+    height: 30px;
+    font-weight: 700;
+}
+.amtinwordrs{
+    width: 100%;
+    height: 30px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    font-weight:500;
+}
+.bottom{
+    display: flex;
+    width: 100%;
+    height: 116px;
+}
+.terms{
+    width: 60%;
+    border: 1px solid black;
+}
+.term{
+    margin-left: 3px;
+}
+.sign{
+    width: 40%;
+    border: 1px solid black;
+}
+ul{
+    margin-top: 5px;
+}
+li{
+    font-size: 15px;
+}
+.formurugan{
+    font-weight: 500;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 17px;
+}
+.for{
+    font-size: 18px;
+}
+.authsign{
+    font-size:14px;
+    /* margin-top: 10px; */
+    text-align: center;
+}
+.imgs{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.signature{
+    width: 200px;
+    height: 50px;
+}
+.infolding,.intotalmeters,.inamount,.taxableamtno,.cgstno,.sgstno,.igstno,.totalamt,.amtwords{
+    display: flex;
+    justify-content: center;
+}
+.bale{
+    width: 100%;
+    height: 100px;
+    border: 1px solid black;
+    margin-top:94px;
+}
+.baleinput{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.spanblae{
+    font-size: 18px;
+}
+.baleno1,.baleno2{
+    border: none;
+    width:3ch;
+    font-size: 18px;
 }

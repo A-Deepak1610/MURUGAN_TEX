@@ -27,7 +27,7 @@
         <div class="billandship"><div class="billto"><p>Billed To</p><input type="text" class="billaddress">
         <textarea type="text" class="addressbill"></textarea>
         <input type="text" class="billgstn" value="GSTN:"><br>
-        <input type="text" class="billstate" value="STATE">
+        <input type="text" class="billstate" id="billstate" value="STATE:TN">
         </div>
         <div class="shipto"><p>Shipped To</p><input type="text" class="billaddress">
             <textarea type="text" class="addressbill"></textarea>
@@ -44,15 +44,70 @@
         </div>
         <div class="data">
             <div class="indescription"><p class="indescriptiontext">CONTAINING 85% OR MORE BY WEIGHT OF COTTON</p>
-            <div class="bale"><input type="text" class="baleno" value="BALE NO:"><p class="totalbale">TOTAL BALES:12</p></div></div>
+            <div class="bale">
+                <div class="baleinput">
+                   <span class="spanblae"> BALE NO:</span>
+                    <input type="text"class='baleno1' id="baleno1"><span class="hifen">-</span><input type="text" class="baleno2" id="baleno2">
+                </div>
+                <p class="totalbale">TOTAL BALES:<span id="totalbales"></span></p></div></div>
             <div class="inhsn">520811</div>
-            <div class="inmeters"><input type="text" class="inputmeters"></div>
-            <div class="infolding">312.50</div>
-            <div class="intotalmeters">1051.5</div>
-            <div class="inrate"><input type="text" class="inputrate"></div>
-            <div class="inamount">381497.25</div>
+            <div class="inmeters"><input type="text" class="inputmeters" id="inputmeters"></div>
+            <div class="infolding" id="infolding"></div>
+            <div class="intotalmeters" id="intotalmeters"></div>
+            <div class="inrate"><input type="text" class="inputrate" id="inputrate"></div>
+            <div class="inamount" id="inamount"></div>
+        </div>
+        <div class="taxdetails">
+            <div class="bankdetails">
+                <p class="bankdetail"><u>BANK DETAILS:</u></p>
+                <div class="bname"><p class="name">NAME</p><p ><pre class="aa">:  MURUGAN TEX</pre></p></div>
+               <div class="bacno"> <p class="acno">ACCOUNT NO</p> <p><pre class="aa">:  1612261010137</pre></p></div>
+               <div class="bbankname"> <p class="bankname">BANKNAME</p><p><pre class="aa">:  CANARA BANK</pre></p></div>
+                <div class="bifsc"><p class="ifsc">IFSC</p><p><pre class="aa">:  CNRB0001612</pre></p></div>
+                <div class="bbranch"><p class="branch">BRANCH</p><p><pre class="aa">:  THEKKALUR</pre></p></div>
+            </div>
+            <div class="taxes">
+                <div class="taxname">
+                    <div class="taxableamt">
+                    <p>TAXABLE AMOUNT</p>
+                </div>
+                <div class="cgst">
+                    <p> CGST @2.5%</p>
+                </div>
+                <div class="sgst">
+                    <p> SGST @2.5%</p>
+                </div>
+                <div class="igst">
+                    <p> IGST @5%</p>
+                </div>
+                <div class="totamt">
+                    <p>TOTAL AMOUNT</p>
+                </div>
+                </div>
+                <div class="taxamt">
+                    <div class="taxableamtno" id="taxableamtno"></div>
+                    <div class="cgstno" id="cgstno"></div>
+                    <div class="sgstno" id="sgstno"></div>
+                    <div class="igstno" id="igstno"></div>
+                    <div class="totalamt" id="totalamt"></div>
+                </div>
+            </div>
+        </div>
+        <div class="amtinwordrs">Amount (in words):<span id="amtwords"></span> <pre> only</pre></div>
+        <div class="bottom">
+            <div class="terms"><p class="term"><u>Terms & Conditions:</u></p>
+            <ul>
+                <li>We will not accept any claim after processing of goods</li>
+                <li>We are not responsible for any loss or damage in transit</li>
+                <li>Subject to Tirupur Jurisdiction</li>
+            </ul></div>
+            <div class="sign">
+                <p class="formurugan"><span class="for">For</span> MURUGAN TEX</p>
+                <div class="imgs">
+                <img src="signature.png" class="signature" alt=""></div>
+                <p class="authsign">Authorized Signatory</p>
+            </div>
         </div>
     </div>
-</div>
 </body>
 </html>
